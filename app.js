@@ -1,8 +1,8 @@
 const express = require('express')
 const pg = require('pg')
-import {config} from 'dotenv'
+const config = require('dotenv')
 
-config()
+require("dotenv").config();
 
 //importando el router
 const router = require('./routes/main')
