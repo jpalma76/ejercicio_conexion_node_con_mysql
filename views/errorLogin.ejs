@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+    <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+        <style>
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: none;
+            }
+            .card-text {
+                color: red;
+                font-style: italic;
+            }
+            .image {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                border: 5px double grey;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container p-4">
+
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img class="card-img-top image" src="./images/nonono.jpg" alt="">
+                <div class="card-body">
+                <h4 class="card-title">No no no!!!</h4>
+                <p class="card-text">la contraseña no corresponde</p>
+                
+                <div class="button-container">
+                    <a href="/login"><input type="submit" value="Volver" id="volver" class="btn btn-info btn-sm ml-3"></a>
+    
+                    <a href="/register"><input type="submit" value="Sign up" id="volver" class="btn btn-info btn-sm ml-3"></a>
+
+                    <a href="/"><input type="submit" value="Back to home" id="volver" class="btn btn-info btn-sm ml-3"></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+                
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/jquery-3.7.1.js"></script>
+    </body>
+</html>
+    

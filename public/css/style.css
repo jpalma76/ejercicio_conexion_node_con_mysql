@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.botones {
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+
+.card-col {
+    border: 1px solid;
+    border-radius: 13px;
+    padding: 2rem;
+}
