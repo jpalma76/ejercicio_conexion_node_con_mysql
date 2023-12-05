@@ -10,6 +10,9 @@ const controller = {
     },
     errorLogin: (req, res) => {
         res.render('errorLogin')
+    },
+    ping: (req, res) {
+        res.render("ping")
     }
 }
 

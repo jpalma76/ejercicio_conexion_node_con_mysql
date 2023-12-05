@@ -1,9 +1,16 @@
 const express = require('express')
+const pg = require('pg')
+import {config} from 'dotenv'
+
+config()
 
 //importando el router
 const router = require('./routes/main')
 
 const app = express()
+const pool = new pg.Pool({
+    connectionString: 'process.env.DATBASE_URL'
+})
 
 app.set(express.urlencoded({ extended: false }));
 app.set(express.json())
